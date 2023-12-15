@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fashionShop/static/css/main.88fab219.css",
-    "main.js": "/fashionShop/static/js/main.5adaecc1.js",
+    "main.css": "/fashionShop/static/css/main.e33fb696.css",
+    "main.js": "/fashionShop/static/js/main.4f7c1be8.js",
     "static/js/787.8f877c9c.chunk.js": "/fashionShop/static/js/787.8f877c9c.chunk.js",
     "static/media/logoDark.png": "/fashionShop/static/media/logoDark.fffd4c7fd1e47630c710.png",
     "static/media/googleLogo.png": "/fashionShop/static/media/googleLogo.0b50af2fbb8c1e8ca23e.png",
@@ -9,12 +9,12 @@
     "static/media/cart.png": "/fashionShop/static/media/cart.a4022681092dd4d2449a.png",
     "static/media/paymentLogo.png": "/fashionShop/static/media/paymentLogo.c301b666ef0989278f2e.png",
     "index.html": "/fashionShop/index.html",
-    "main.88fab219.css.map": "/fashionShop/static/css/main.88fab219.css.map",
-    "main.5adaecc1.js.map": "/fashionShop/static/js/main.5adaecc1.js.map",
+    "main.e33fb696.css.map": "/fashionShop/static/css/main.e33fb696.css.map",
+    "main.4f7c1be8.js.map": "/fashionShop/static/js/main.4f7c1be8.js.map",
     "787.8f877c9c.chunk.js.map": "/fashionShop/static/js/787.8f877c9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88fab219.css",
-    "static/js/main.5adaecc1.js"
+    "static/css/main.e33fb696.css",
+    "static/js/main.4f7c1be8.js"
   ]
 }
