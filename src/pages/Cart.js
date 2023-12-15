@@ -35,10 +35,10 @@ export const Cart = () => {
             {productData.length === 0 ? (
                 <div className="text-red-500 text-center py-10 text-xl">Your shopping cart is empty</div>
             ) : (
-                <div className="max-w-screen-xl mx-auto py-20 flex">
+                <div className="sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg  xl:max-w-screen-xl mx-auto py-20 lg:flex">
                     <CartItem />
                     {/* total  */}
-                    <div className="w-1/3 bg-[#fafafa] py-6 px-4">
+                    <div className="lg:w-1/3 sm:w-full sm:mt-12  bg-[#fafafa] py-6 px-4">
                         <div className="flex flex-col gap-6 border-b-[1px] border-b-gray-400 pb-6">
                             <h2 className="text-2xl font-medium">cart totals</h2>
                             <p className="flex gap-4 items-center text-base">

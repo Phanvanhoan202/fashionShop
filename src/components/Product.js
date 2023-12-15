@@ -16,7 +16,7 @@ export const Product = () => {
     }, []);
 
     return (
-        <div className="max-w-screen-xl flex mx-auto py-10 gap-10">
+        <div className="sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg  xl:max-w-screen-xl flex mx-auto py-10 gap-10">
             <div className="w-2/5 relative">
                 <img className="w-full h-[550px] object-cover" src={details.image} alt="imgDetail" />
                 <div className="absolute top-4 right-0 z-20">

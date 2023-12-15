@@ -7,7 +7,7 @@ import { logoLight, paymentLogo } from '../assets';
 export const Footer = () => {
     return (
         <div className="w-full bg-black py-20 font-titleFont text-[#949494]">
-            <div className="max-w-screen-xl mx-auto grid grid-cols-4">
+            <div className="sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg  xl:max-w-screen-xl mx-auto grid lg:grid-cols-4 sm:grid-cols-2 sm:gap-8 lg:gap-0">
                 <div className="flex flex-col gap-5">
                     <img className="w-32 -mb-2 -mt-2" src={logoLight} alt="logoLight" />
                     <p className="text-white text-sm tracking-wide">© Mango.com</p>

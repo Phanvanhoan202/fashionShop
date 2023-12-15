@@ -12,7 +12,7 @@ export const Products = ({ products }) => {
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                 </p>
             </div>
-            <div className="grid grid-cols-4 py-10 max-w-screen-xl mx-auto gap-10">
+            <div className="grid xl:grid-cols-4 sm:grid-cols-2 lg:grid-cols-3 py-10 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg  xl:max-w-screen-xl mx-auto gap-10">
                 {products.map((item) => (
                     <ProductCart key={item._id} product={item} />
                 ))}

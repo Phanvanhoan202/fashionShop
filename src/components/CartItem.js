@@ -11,7 +11,7 @@ export const CartItem = () => {
     const productData = useSelector((state) => state.mango.productData);
     console.log(productData.length);
     return (
-        <div className="w-2/3 pr-10">
+        <div className="lg:w-2/3 pr-10 sm:w-full">
             <div>
                 <h2 className="text-2xl font-titleFont">Shopping cart</h2>
             </div>

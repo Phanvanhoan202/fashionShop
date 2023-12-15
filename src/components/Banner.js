@@ -20,7 +20,7 @@ export const Banner = () => {
 
     return (
         <div className="w-full h-auto overflow-x-hidden">
-            <div className="h-[650px] w-screen relative">
+            <div className="xl:h-[650px] sm:h-[355px] lg:h-[515px] sm: w-screen relative">
                 <div
                     style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
                     className="w-[400vw] h-full flex duration-1000"
