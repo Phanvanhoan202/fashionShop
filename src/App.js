@@ -18,7 +18,7 @@ const Layout = () => {
     );
 };
 
-const router = createBrowserRouter([
+const router = createMemoryRouter([
     {
         path: '/',
         element: <Layout />,
